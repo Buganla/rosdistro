@@ -4080,6 +4080,10 @@ python-requests-oauthlib:
   fedora: [python-requests-oauthlib]
   gentoo: [dev-python/requests-oauthlib]
   ubuntu: [python-requests-oauthlib]
+python-requests-pkcs12-pip:
+  ubuntu:
+    pip:
+      packages: [requests-pkcs12]
 python-responses-pip:
   osx:
     pip:
@@ -7373,6 +7377,10 @@ python3-requests-oauthlib:
     '*': ['python%{python3_pkgversion}-requests-oauthlib']
     '7': null
   ubuntu: [python3-requests-oauthlib]
+python3-requests-pkcs12-pip:
+  ubuntu:
+    pip:
+      packages: [requests-pkcs12]
 python3-retrying:
   arch: [python-retrying]
   debian: [python3-retrying]
